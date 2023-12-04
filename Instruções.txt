@@ -1,0 +1,26 @@
+1)Vá até a página oficial e baixe a última versão da classe PHPMailer (https://github.com/PHPMailer/PHPMailer/archive/master.zip)
+
+2)Descompacte e coloque a pasta descompactada dentro do diretório de sua aplicacação.
+
+
+E-mails de testes:
+GMAIL:
+remetente: /*somos nós, os desenvolvedores*/
+remetente.ifsc2016@gmail.com - senha: ifsc1234
+
+destinatário:  /*o e-mail fornecido pelo usuário no formulário*/
+destinatario.ifsc2016@gmail.com - senha: ifsc1234
+
+AVISO QUANTO AO E-MAIL DO REMETENTE:
+Desde o final do ano DE 2014, o Google exige um mecanismo de autenticação mais seguro (XOAuth2) em vários serviços. Isto inclui o Gmail. Para que o envio de e-mails com PHP funcione, o e-mail do REMETENTE deve estar configurado para "Permitir que aplicativos menos seguros acessem sua conta". Para fazer isso, logue-se no Gmail com sua conta de remetente e acesse o link https://www.google.com/settings/security/lesssecureapps
+Neste modelo, a senha de acesso para o e-mail do administrador do Google é rdye xans iaej eney 
+
+ATENÇÃO: você precisa habilitar a extensão OpenSSL no php.ini, se, na hora da instalação do WAMP/LAMP/XAMPP, ela não foi habilitada. Para isso:
+1-localize o arquivo PHP.ini dentro do WAMP/LAMP/XAMPP
+2-localize a linha extension=php_openssl.dll
+3-retire o ponto-e-vírgula antes desta linha
+4-salve o arquivo PHP.ini
+5-reinicie o servidor web
+ OUTRA forma de acessar o php.ini é indo no ícone do Wamp, com o botão esquerdo selecionar o menu PHP e, depois, o submenu php.ini, abrir o arquivo e fazer a modificação descrita acima. Não esqueça de salvar a modificação, fechar o wamp e abrir novamente
+
+
